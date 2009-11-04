@@ -10,6 +10,7 @@ class Item
 
   def complete!
     @completion_datetime = Date.today
+    puts "complete!"
   end
 
 end
@@ -24,6 +25,7 @@ class ItemWithEstimation < Item
 
   def log_work(hours)
     @estimated_time_to_completion -= hours
+    puts "working...."
   end
 
 end
