@@ -64,8 +64,8 @@ class Item
 end
 
 
-item = Item.with :estimation, :notifier
-item.estimated_time_to_completion = 10
-item.log_work(4)
-item.ping
+#item = Item.with :estimation, :notifier
+#item.estimated_time_to_completion = 10
+#item.log_work(4)
+#item.ping
 
